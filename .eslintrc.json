@@ -57,8 +57,8 @@
         "groups": [
           "/^react/",
           "module",
-          "/^@!components/",
-          "/^@components/",
+          "/^!@types|!@assets|!@components|!@constants|!@contexts|!@helpers|!@hooks|!@interfaces|!@locales|!@pages|!@routes|!@services|!@store|!@styles|!@utils/",
+          "/^@types|@assets|@components|@constants|@contexts|@helpers|@hooks|@interfaces|@locales|@pages|@routes|@services|@store|@styles|@utils/",
           ["parent", "sibling", "index"],
           "/.styles/"
         ],
